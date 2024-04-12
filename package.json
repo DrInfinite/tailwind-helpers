@@ -4,6 +4,11 @@
   "types": "./dist/types/index.d.ts",
   "main": "./dist/lib/index.js",
   "module": "./dist/es/index.js",
+  "author": {
+    "name": "Naparajith",
+    "email": "work.naparajith@gmail.com",
+    "url": "https://naparajith.vercel.app/"
+  },
   "scripts": {
     "prepare": "modern build && husky install",
     "dev": "modern dev",
