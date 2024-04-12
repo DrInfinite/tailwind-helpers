@@ -1,4 +1,4 @@
-export { concat, liteConcat } from '@/concat';
+export { concat, liteConcat, type ClassValue } from '@/concat';
 export type {
   ClassNameValue,
   ClassValidator,

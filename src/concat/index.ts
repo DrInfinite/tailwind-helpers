@@ -26,7 +26,7 @@ function concatValues(value: ClassValue): string {
   return result;
 }
 
-export function concat(...classNames: ClassValue[]): string {
+function concat(...classNames: ClassValue[]): string {
   let result = '';
 
   for (const className of classNames) {
@@ -40,10 +40,10 @@ export function concat(...classNames: ClassValue[]): string {
   return result;
 }
 
-export function liteConcat(
-  ...classNames: Array<string | undefined | null | false>
-) {
+function liteConcat(...classNames: Array<string | undefined | null | false>) {
   return classNames.filter(Boolean).join(' ');
 }
+
+export { concat, liteConcat, type ClassValue };
 
 export default concat;
