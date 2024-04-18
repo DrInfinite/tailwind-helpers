@@ -1,4 +1,4 @@
-import { ClassValue } from '@/variants/types';
+import type { ClassValue } from './types';
 
 function concatValues(value: ClassValue): string {
   let result = '';
@@ -44,6 +44,6 @@ function liteConcat(...classNames: Array<string | undefined | null | false>) {
   return classNames.filter(Boolean).join(' ');
 }
 
-export { concat, liteConcat, type ClassValue };
+export { concatValues, concat, liteConcat, type ClassValue };
 
 export default concat;

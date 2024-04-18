@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "../"
+  },
+  "include": ["**/*", "../src"],
+  // change this to include all files in all dirs
+  "exclude": ["**/node_modules"]
+}
