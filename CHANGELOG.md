@@ -1,5 +1,11 @@
 # @naparajith/tailwind-helpers
 
+## 0.2.3
+
+### Patch Changes
+
+- full backwards compatibility upto IE9
+
 ## 0.2.2
 
 ### Patch Changes
