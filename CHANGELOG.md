@@ -1,5 +1,11 @@
 # @naparajith/tailwind-helpers
 
+## 0.2.2
+
+### Patch Changes
+
+- fixed type errors and generated more accurate types
+
 ## 0.2.1
 
 ### Patch Changes
