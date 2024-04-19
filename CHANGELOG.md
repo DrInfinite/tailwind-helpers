@@ -1,5 +1,11 @@
 # @naparajith/tailwind-helpers
 
+## 0.2.1
+
+### Patch Changes
+
+- fixed an issue with default variants not being applied
+
 ## 0.2.0
 
 ### Minor Changes
